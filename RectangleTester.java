@@ -2,6 +2,12 @@ public class RectangleTester
 {
     public static void main(String[] args)
     {
+        Rectangle r1 = new Rectangle(10,2);
+        System.out.println(r1);
+        r1.printArea();
+        Rectangle r2 = new Rectangle(5,15);
+        System.out.println(r2);
+        r2.printArea();
         /*
          * Rectangle is the name of the class. Every Rectangle
          * has a width and a height. But the specific instances
